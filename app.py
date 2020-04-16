@@ -1,0 +1,5 @@
+x  = input()
+a,d,n = x.split(' ')
+an = (int(n)-1)*int(d)+int(a)
+sn = ((int(a)+an)/2)*int(n)
+print(int(sn))
